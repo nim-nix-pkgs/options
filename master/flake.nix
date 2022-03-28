@@ -11,7 +11,6 @@
   inputs.src-options-master.ref   = "refs/heads/master";
   inputs.src-options-master.owner = "fallingduck";
   inputs.src-options-master.repo  = "options-nim";
-  inputs.src-options-master.dir   = "";
   inputs.src-options-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
